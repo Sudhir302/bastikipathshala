@@ -1,12 +1,49 @@
-# React + Vite
+# BASTIKIPATHSHALA FRONTEND PROJECT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Currently, two official plugins are available:
+Live on👉: [BASTIKIPATHSHALA](https://bastikipathshala-jet.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡️ Features
+- Dynamic UI
+- Responsive and mobile friendly
 
-## Expanding the ESLint configuration
+## 👩‍💻 Technologies Used
+- Frontend: React, CSS3, Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+### Prerequisites
+- node
+- VS code
+
+### Installation 
+1. Clone the bastikipathshala Repo:
+    ```
+    https://github.com/Sudhir302/bastikipathshala.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd client
+    ```
+3. Install dependencies:
+    ```
+    npm insall
+    ```
+4. Run the app 
+    ```
+    npm run dev
+    ```
+
+## 📁Project Structure
+    Client/
+    |
+    ├── pubilc/
+    |
+    |
+    ├── src/
+    |    ├──component/
+    |    |
+    |    ├──style
+    |     
