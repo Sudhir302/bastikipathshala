@@ -1,0 +1,72 @@
+.home-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)),
+        url("/homeimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.banner{
+    font-family: sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    word-spacing: .5rem;
+    width: 69%;
+
+}
+
+.poster{
+    color: white;
+    width: 75%;
+    text-align: center;
+}
+
+.donate{
+    background-color: rgb(250, 200, 20);
+    color: black;
+    border: none;
+    font-size: 1.1rem;
+    padding: 1.1rem 1.5rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: .3rem;
+}
+
+
+
+.donate:hover{
+    cursor: pointer;
+    background-color: rgba(250, 200, 20, 0.874);
+}
+
+.donate:active{
+    box-shadow: inset 0 0 2px black;
+}
+
+
+/* ---------------media responsive------------------ */
+
+@media screen and (max-width: 480px) {
+    .home-container{
+        align-items: center;
+    }
+
+    .banner{
+        width: 90%;
+        font-size: 4rem;
+    }
+    .poster{
+        width: 90%;
+    }
+}

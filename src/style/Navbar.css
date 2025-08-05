@@ -1,0 +1,77 @@
+.navbar{
+    background-color:rgba(0, 0, 0, 0.121);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+.logo{
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-left: 3rem;
+}
+
+.logo img{
+    width: 8rem;
+    height: 8rem;
+}
+
+.hero-section{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: roboto;
+    font-size: 1.1rem;
+}
+
+.hero-section a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-section a:hover{
+    color: #d8d6d6;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+
+/* --------------------mobile responsive---------------- */
+
+@media screen and (max-width: 480px) {
+
+    .navbar{
+        flex-direction: column;
+        padding: .5rem 1rem;
+        gap: .5rem;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .logo img{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .hero-section{
+        width: 100%;
+        font-size: 1rem;
+    }
+}

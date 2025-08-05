@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: poppins, roboto, inter, sans-serif;
+  overflow-x: hidden;
+  background-color: white;
+}
